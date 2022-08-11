@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://fooddrinksrecipes.netlify.app/host-https-resepkoki.co/sitemap.xml
+Sitemap: https://homecooktaste.netlify.app/host-https-www.tasteofhome.com/sitemap_index.xml
