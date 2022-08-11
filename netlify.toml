@@ -1,0 +1,18 @@
+[build]
+  command = "npm install && npm run build"
+  functions = "functions"
+
+[functions]
+  included_files = ["assets/*","sitemap/*","*"]
+
+[[redirects]]
+  from = "/arc-sw.js"
+  to = "https://arc.io/arc-sw.js"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/core/:splat"
+  status = 200
+  force = true
