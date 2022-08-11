@@ -1,8 +1,8 @@
 {
-  "name-web":"Resep Koki Resep Masakan Rumahan Mudah & Praktis",
-  "author":"food drinks recipes",
+  "name-web":"Find Recipes, Appetizers, Desserts, Holiday Recipes &amp; Healthy Cooking Tips",
+  "author":"home cook taste",
   "remove-comment-html":true,
-  "target":"https://resepkoki.co",
+  "target":"https://www.tasteofhome.com",
   "name-folder-sitemap":"sitemap",
   "element-remove":[
     "script",
@@ -20,20 +20,20 @@
   ],
   "costom-element-remove":[
     {
-      "target":"resepkoki.co",
+      "target":"tasteofhome.com",
       "element-remove-selector":[
         ".js-dismissable-hero",
         ".lazy-loading"
       ],
       "replace-string":[
         {
-          "target":"resepkoki.co",
+          "target":"tasteofhome.com",
           "replace":"${nameWeb}"
         }
       ]
     },
     {
-      "target":"resepkoki.co",
+      "target":"tasteofhome.com",
       "element-remove-selector":[
         ".baca",
         ".op-interactive",
@@ -49,7 +49,7 @@
       "replace-string":[]
     },
     {
-      "target":"resepkoki.co",
+      "target":"tasteofhome.com",
       "element-remove-selector":[
         ".box-header",
         ".box-language",
@@ -59,7 +59,7 @@
       "replace-string":[]
     },
     {
-      "target":"resepkoki.co",
+      "target":"tasteofhome.com",
       "element-remove-selector":[
         "header",
         ".trail-wrapper",
